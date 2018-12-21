@@ -1,0 +1,93 @@
+/**index.wxss**/
+.container {
+  position:absolute;
+  top: 0;
+} 
+
+swiper image {
+  width: 100%;
+}
+
+.index-two {
+  margin-top: 15px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.index-two .index-two-item {
+   width: 22%;
+  text-align: center;
+}
+
+.index-two  image{
+  width: 100%;
+  height: 80px;
+}
+
+.has-title {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.has-title .container-underline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.has-title .container-underline .underline {
+  margin-top: 15px; 
+  width: 4em;
+  border-bottom: 3px #4289ff solid;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .item {
+  width: 80%;
+}
+
+.content .text-content {
+  text-align: left;
+  margin: 10px;
+}
+
+
+.index-three {
+  margin-top: 30px; 
+}
+
+.index-three image {
+  width: 100%;
+  height: 60px;
+  margin-top: 15px; 
+}
+
+.index-four {
+  margin-top: 30px; 
+}
+
+.index-four .content .item image {
+  width: 100%;
+  height: 200px;
+}
+
+.index-four .container-underline .underline {
+  width: 2em;
+}
+
+.index-four .more{
+  width: 90%;
+    font-size: 16px;
+    color: #4289ff;
+    text-align: right;
+    /* margin-right: 20px; */
+}
+

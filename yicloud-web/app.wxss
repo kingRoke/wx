@@ -1,0 +1,74 @@
+/**app.wxss**/
+
+/* 清除浮动 */
+.clearfix{overflow:hidden;_zoom:1;}
+
+
+
+.header {
+  background: rgba(8, 59, 112, 0.93);
+  width: 100%;
+  position:fixed;
+  top: -15px;
+  z-index: 1; 
+}
+
+.header image {
+  padding-top: 10px; 
+  width: 80px;
+  height: 60px
+}
+
+.header .logo {
+  margin-left: 15px;
+}
+
+.header .menu {
+   float: right;
+   margin: 8px 15px;
+   width: 40px;
+   height: 40px;
+}
+
+.header .menu-attr-box {
+  border-top: 1px #FFF0F5 solid;
+  color: #FFFFFF;
+}
+
+.header .menu-attr-box .menu-item {
+  margin: 20px 40px;
+}
+
+.header .menu-attr-box .on {
+  color: #4289ff !important;
+}
+
+.footer {
+  font-size: 14px;
+  color: #777;
+  background-color: #525252;
+  text-align: center;
+  margin-top: 30px; 
+  padding: 40px 10px;
+}
+
+
+
+.title1 {
+  font-size: 22px;
+}
+
+.title2 {
+  font-size: 20px;
+}
+
+.electric-head { 
+  font-size: 14px;
+  color: #999;
+}
+
+.text {
+  font-size: 16px;
+}
+
+

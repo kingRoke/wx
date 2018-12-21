@@ -1,0 +1,18 @@
+<!--pages/navbar/navbar.wxml-->
+
+  <view class="header">
+    <image src="{{logo}}" mode="aspectFit" class="logo" />
+    <image src="{{menu}}" mode="aspectFit" class="menu"  bindtap="clickMenu" data-statu="{{menu_statu}}" />
+    <view class="menu-attr-box" wx:if="{{showMenuStatus}}">
+      <!--drawer content-->
+        <navigator url = "/pages/index/index" class="menu-item on">首页</navigator>
+        <navigator url = "/pages/index/index" class="menu-item">产品体系</navigator>
+        <navigator url = "/pages/index/index" class="menu-item">服务与支持</navigator>
+        <navigator url = "/pages/index/index" class="menu-item">行业资讯</navigator>
+        <navigator url = "/pages/index/index" class="menu-item">关于我们</navigator>
+        <navigator url = "/pages/index/index" class="menu-item">CPS</navigator>
+    </view>
+  </view>
+
+
+

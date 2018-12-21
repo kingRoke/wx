@@ -1,0 +1,5 @@
+<!--pages/footer/footer.wxml-->
+<view class="footer">
+  <view><text>All Rights Reserved © 2018 mcsca 大陆云盾电子服务认证有限公司 </text></view>
+  <view><text>渝ICP备18008097号</text></view>
+</view>

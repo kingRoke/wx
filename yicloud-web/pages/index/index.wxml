@@ -1,0 +1,83 @@
+<!--index.wxml-->
+<view class="clearfix">
+  <include src="../header/header.wxml" />  　　
+  <view class="container">
+    <!-- banner -->
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{    {duration}}" circular="false">
+      <swiper-item wx:for="{{imgUrls}}">
+        <image src="{{item}}" mode="scaleToFill"/>
+      </swiper-item>
+   </swiper>
+    
+    <view class="index-two">
+      <view class="index-two-item">
+          <image src="{{eID_img}}" mode="aspectFit"/>
+          <text>身份认证</text> 
+      </view>
+       <view class="index-two-item">
+          <image src="{{eID_img}}" mode="aspectFit"/>
+          <text>身份认证</text>     
+      </view>
+       <view class="index-two-item">
+          <image src="{{eID_img}}" mode="aspectFit"/>
+          <text>身份认证</text>     
+      </view>
+    </view>
+
+    <view class="index-three has-title">
+        <text class="title1">证书申请流程</text>
+        <view class="container-underline">
+          <view class="underline"></view>
+        </view>
+        <image src="{{three_content}}" mode="aspectFit"/>
+    </view>
+
+    <view class="index-four has-title">
+        <text class="title1">行业资讯</text>
+        <view class="container-underline">
+          <view class="underline"></view>
+        </view>
+        <view class="content">
+          <view class="item"> 
+            <image src="{{four_content1}}" mode="aspectFit"/>
+            <view class="text-content"><text class="title2">《网络安全法》解读</text></view>
+            <view class="text-content"><text class="electric-head">来源:九龙坡政府公众信息网   2018-07-12</text></view>
+            <view class="text-content">
+              <text class="text">《中华人民共和国网络安全法》是我国网络领域的基础性法律。本法共有七章七十九条，突出六部分内容...</text>
+            </view>
+          </view>
+         <view class="item"> 
+            <image src="{{four_content2}}" mode="aspectFit"/>
+            <view class="text-content"><text class="title2">《网络安全法》解读</text></view>
+            <view class="text-content"><text class="electric-head">来源:九龙坡政府公众信息网   2018-07-12</text></view>
+            <view class="text-content">
+              <text class="text">《中华人民共和国网络安全法》是我国网络领域的基础性法律。本法共有七章七十九条，突出六部分内容...</text>
+            </view>
+          </view>
+           <view class="item"> 
+            <image src="{{four_content3}}" mode="aspectFit"/>
+            <view class="text-content"><text class="title2">《网络安全法》解读</text></view>
+            <view class="text-content"><text class="electric-head">来源:九龙坡政府公众信息网   2018-07-12</text></view>
+            <view class="text-content">
+              <text class="text">《中华人民共和国网络安全法》是我国网络领域的基础性法律。本法共有七章七十九条，突出六部分内容...</text>
+            </view>
+          </view>
+        </view>
+        <view class="more">
+            <text>更多资讯</text>
+          </view>
+    </view>
+     <include src="../footer/footer.wxml" />
+     <button class='btn1' catchtap='goProductService'>
+    <view>确定</view>
+ </button>
+  </view>   
+  
+</view>
+
+
+
+
+
+
+

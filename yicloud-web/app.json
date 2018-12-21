@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cfl/cfl",
+    "pages/header/header",
+    "pages/footer/footer",
+    "pages/product-service/product-service"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTitleText": "点photo有惊喜哟！！！",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFDAB9",
+    "enablePullDownRefresh": true
+  }
+}
